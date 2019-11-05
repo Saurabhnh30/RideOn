@@ -1,0 +1,27 @@
+/* PRIMARY COLORS */
+:root {
+  --primary_grey:     #232222;
+  --secondary_grey:   #2f2f2f;
+  --third_grey:       #3c3c3c;
+  --fourth_grey:      #272727;
+  --cust_red:         #cf2a2a;
+  --light_grey:       #f3f3f3;
+  --golden:           #d0ae2b;
+}
+
+
+/* CUSTOME COLOR CLASSES */
+
+/* TEXT COLORS */
+.primary_grey {color: var(--primary_grey);}
+.secondary_grey {color: var(--secondary_grey);}
+.cust_red {color: var(--cust_red);}
+.golden_txt {color: var(--golden);}
+.light_grey_txt {color: var(--light_grey);}
+
+
+/* BACKGROUNDS */
+.no_bg {background-color: transparent !important;}
+.bk_red{background-color: var(--cust_red) !important;}
+.golden_bk {background-color: var(--golden) !important;}
+.secondary_grey_bk {background-color: var(--secondary_grey) !important;}

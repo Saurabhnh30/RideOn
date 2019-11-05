@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rides</title>
+
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Online CSS Links -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">-->
+
+  <!-- Offline CSS Links -->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/materialize-icons.css">
+
+  <!-- Online Javascript Links -->
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script> -->
+  <!-- <script src="https://use.fontawesome.com/6f3bbdfda7.js"></script> -->
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+<style>
+/* .div {
+  width: 400px;
+    height: 187px;
+    background-color: yellow;
+    border: 1px solid black;
+    transition:0.3s ease;
+}
+.div:hover{
+transform: scale(1.1,1.1);
+} */
+
+</style>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="head_container">
+      <div class="brand_logo">
+        <div class="logo_box">
+          <a href="index.html"><img src="images/logo/logo2.png" alt="Ride On"></a>
+        </div>
+      </div>
+      <!-- /.brand_logo -->
+      <div class="navbar">
+        <ul class="navbar_menu">
+          <li><a href="MOTORCYCLES.html">MOTERCYCLE</a></li>
+          <li class="bk_red"><a href="Rides.html">RIDE</a></li>
+          <li><a href="locateus.html">LOCATE US</a></li>
+          <li class="sub_menu">
+            <a href="Main_Gear_Page.html">GEARS</a>
+            <ul class="navbar_sub_menu">
+              <li><a href="HELMET.html">HELMETS</a></li>
+              <li><a href="GLOVES.html">GLOVES</a></li>
+              <li><a href="SADDLEBAGS.html">SADDLEBAGS</a></li>
+              <li><a href="FOOTWEAR.html">FOOTWAER</a></li>
+              <li><a href="ACCESSORIES.html">ACCESSORIES</a></li>
+              <li><a href="T_SHIRT.html">T SHIRT</a></li>
+            </ul>
+          </li>
+          <li><a href="about_Us.html">ABOUT US</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar -->
+      <div class="user_opt">
+        <div class="user_notify">
+          <span class="user_notify_btn c_pointer"><i class="small material-icons">notifications</i></span>
+        </div>
+        <div class="cart_box">
+          <a href="cart.html" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="You have 5 items in your cart">
+            <span ><i class="material-icons">shopping_basket</i></span>
+            <span class="cart_num"><i class="material-icons cust_red">looks_3</i></span>
+          </a>
+        </div>
+        <div class="user_opt_btn">
+          <img src="images/logo/5.jpg" class="c_pointer" alt="user opt btn">
+        </div>
+
+        <div class="user_opt_list">
+          <ul>
+            <li><a href="setting.html"><i class="tiny material-icons user_opt_icons">settings</i>Setting</a></li>
+            <li>
+              <hr class="cust_divider" />
+            </li>
+            <li><a href="index.html"><i class="tiny material-icons user_opt_icons">power_settings_new</i>Logout</a></li>
+          </ul>
+        </div>
+        <!-- /.user_opt_list -->
+
+        <div class="user_notify_list">
+          <div class="notify_trip">
+            <ul class="notify_t_head no_margin">
+              <li><img src="images/logo/1.jpg" class="img_fullscale circle" alt=""></li>
+              <li><img src="images/logo/2.jpg" class="img_fullscale circle" alt=""></li>
+              <li><img src="images/logo/3.jpg" class="img_fullscale circle" alt=""></li>
+              <li><img src="images/logo/4.jpg" class="img_fullscale circle" alt=""></li>
+            </ul>
+            <div class="notify_t_body">
+              <p class="notify_content no_margin white-text">Rohan, Saurabh, Janni have joined your trip.</p>
+            </div>
+            <div class="notify_t_foot right-align">
+              <small>12 January 2018</small>
+            </div>
+          </div>
+          <div class="notify_trip">
+            <ul class="notify_t_head no_margin">
+              <li><img src="images/logo/1.jpg" class="img_fullscale circle" alt=""></li>
+            </ul>
+            <div class="notify_t_body">
+              <p class="notify_content no_margin white-text">Mumbaiker Nikhil Planned a trip to Jodhpur</p>
+            </div>
+            <div class="notify_t_foot right-align">
+              <small>22 January 2018</small>
+            </div>
+          </div>
+          <div class="notify_trip">
+            <ul class="notify_t_head no_margin">
+              <li><img src="images/logo/1.jpg" class="img_fullscale circle" alt=""></li>
+            </ul>
+            <div class="notify_t_body">
+              <p class="notify_content no_margin white-text">Mumbaiker Nikhil , Janni and Rohan started following you</p>
+            </div>
+            <div class="notify_t_foot right-align">
+              <small>Yesterday</small>
+            </div>
+          </div>
+        </div>
+        <!-- /.user_notify_list -->
+      </div>
+      <!-- /.user_opt -->
+    </div>
+    <!-- /.head_container -->
+  </header>
+  <!-- /.header -->
+
+
+  <!-- PHONE NAVBAR AREA -->
+  <div class="phn_nav_btn">
+    <button type="button" class="btn"><i class="material-icons">menu</i></button>
+  </div>
+  <!-- /.phn_nav_btn -->
+
+  <div class="phn_lightbox">
+    <div class="phn_navbar">
+      <div class="phn_menu_close">
+        <button type="button" class="btn"><i class="material-icons">close</i></button>
+      </div>
+      <!-- /.phn_menu_close -->
+
+      <ul class="phn_menu no_margin">
+        <li><a href="MOTORCYCLES.html">MOTERCYCLE</a></li>
+        <li><a href="Rides.html">RIDE</a></li>
+        <li><a href="locateus.html">LOCATE US</a></li>
+        <li class="phn_sub_menu">
+          <a href="Main_Gear_Page.html">GEARS
+          <!-- <i class="material-icons">arrow_drop_down</i> --></a>
+          <ul class="phn_navbar_sub_menu">
+            <li><a href="HELMET.html">HELMETS</a></li>
+            <li><a href="GLOVES.html">GLOVES</a></li>
+            <li><a href="SADDLEBAGS.html">SADDLEBAGS</a></li>
+            <li><a href="FOOTWEAR.html">FOOTWAER</a></li>
+            <li><a href="ACCESSORIES.html">ACCESSORIES</a></li>
+            <li><a href="T_SHIRT.html">T SHIRT</a></li>
+          </ul>
+        </li>
+        <li><a href="about_Us.html">ABOUT US</a></li>
+      </ul>
+      <!-- /.phn_menu -->
+    </div>
+    <!-- /.phn_navbar -->
+  </div>
+  <!-- /.phn_lightbox -->
+
+
+  <div class="page_container container">
+
+    <div class="pg_head center">
+     <h3 class="golden_txt fontbold">(RideOn) Rides</h3>
+     <hr>
+    </div>
+    <!-- /.pg_head -->
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/1.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/3.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/4.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row no_right_mrg no_left_mrg" style="text-align:justify;">
+      <p class="light_grey_txt">Royal Enfield has been associated with leisure and adventure motorcycling and under the various initiatives we activate which bring our enthusiasts closer to this aspect. Our rides primarily can be segregated into the Marquee rides and events conducted at a national level (through our dedicated rides & events team) and subsequently into the regional rides conducted through the regional showrooms as well our dealers..</p>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/5.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/6.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/7.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row no_right_mrg no_left_mrg" style="text-align:justify;">
+      <p class="light_grey_txt">EVENTS
+  As part of our ‘Events’ initiatives we also conduct shorter rides from all our dealers and showrooms all over the country. Necessary support as well as guidance to the enthusiasts are provided on these rides from our side which serves as an important factor for these rides.</p>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/8.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/9.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/10.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row no_right_mrg no_left_mrg" style="text-align:justify;">
+      <p class="light_grey_txt">MARQUEE RIDES
+  We have marquee rides conducted by us which are scheduled for a week to a good 3 weeks and traverse some of the most interesting and challenging terrains in the country and even abroad. These Rides and events happen all through the year and have been designed to cater to the adventure callings of our enthusiasts. Enthusiasts can register themselves for these rides and event and be a part of the whole adventure experience we are creating</p>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/11.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/12.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/13.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row no_right_mrg no_left_mrg" style="text-align:justify;">
+      <p class="light_grey_txt">We also provide a platform for our enthusiasts to create and propagate rides they plan amongst themselves and use our website to spread the message as well as communicate. Explore the sections to know how rides can be created and subsequently propagated across.</p>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/7.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/8.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="ride_grp_thumb">
+          <a href="Rides_1.html"><img src="images/Rides/1.jpeg" class="img_fullscale"></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row no_right_mrg no_left_mrg" style="text-align:justify;">
+      <p class="light_grey_txt">Royal Enfield Escapade is an opportunity to disconnect from the mundane and find comfort in the uncomfortable. It seeks to strengthen the bonds between man, machine and terrain. Ride to Lonavala to find out what’s in store in the Western Ghats.</p>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.page_container -->
+
+
+
+  <footer class="footer_container">
+    <div class="container">
+      <div class="row">
+        <div class="col s3">
+          <ul class="foot_list foot_col_1">
+            <li class="foot_content_head">RideOn Biker</li>
+            <li class="foot_list_divider"></li>
+            <li>
+              For 116 years now and counting, Royal Enfield is the world’s oldest motorcycling company in continuous production. With simple, resilient machines, rides in some of the world’s most exciting terrain, purpose-built riding wear and well-crafted leisurewear,
+              Royal Enfield delivers a pure motorcycling experience.
+            </li>
+          </ul>
+        </div>
+        <div class="col s3">
+          <ul class="foot_list foot_col_2">
+            <li class="foot_content_head">Story Locator</li>
+            <li class="foot_list_divider"></li>
+            <li>
+              <div class="foot_txt_box">
+                <input type="text" name="" placeholder="Search your destination...">
+              </div>
+              <button type="button" name="button" class="btn">Search</button>
+            </li>
+          </ul>
+        </div>
+        <div class="col s3">
+          <ul class="foot_list foot_col_3">
+            <li class="foot_content_head">Get It First!</li>
+            <li class="foot_list_divider"></li>
+            <li>
+              <p>Stay up-to-date on Royal Enfield gear and more.</p>
+            </li>
+            <li>
+              <div class="foot_txt_box">
+                <input type="text" name="" placeholder="Search your destination...">
+              </div>
+              <button type="button" name="button" class="btn">Subscribe</button>
+            </li>
+          </ul>
+        </div>
+        <div class="col s3">
+          <ul class="foot_list foot_col_4">
+            <li class="foot_content_head">Our Policies</li>
+            <li class="foot_list_divider"></li>
+            <li>
+              <p>Shipping & Payment</p>
+            </li>
+            <li>
+              <p>Policy on Exchang</p>
+            </li>
+            <li>
+              <p>Terms & Conditions</p>
+            </li>
+            <li>
+              <p>Privacy Policy</p>
+            </li>
+            <li>
+              <p>Contact Us</p>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.row -->
+      <div class="footer_bottom center">
+        <hr>
+        <p>@ 2018 All Rights Reserved Made By <b>Pawar Saurabh Kumar</b></p>
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer_container -->
+
+</body>
+
+</html>
